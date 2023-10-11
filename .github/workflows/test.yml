@@ -1,11 +1,6 @@
 name: Update README
 
-on:
-  push:
-    types: [closed,open]
-    paths:
-      - 'content/profiles/**'
-      - 'static/images/**'
+on: [push]
 
 jobs:
   build-update:
